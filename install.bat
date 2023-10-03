@@ -1,6 +1,8 @@
-echo off
+@echo OFF
 
-echo NOTE: Make sure you have Node.js v18.15.0 and Native Tools (including Chocolatey) installed aswell! Otherwise the .exe won't work correctly.
+COLOR 0A
+
+echo NOTE: Make sure you have Node.Js v18.15.0 and Native Tools (including Chocolatey) installed aswell! Otherwise the .exe won't work correctly.
 
 call npm install .
 call npm install -g pkg
